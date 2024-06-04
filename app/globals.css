@@ -85,6 +85,8 @@ body {
     padding-top: var(--padding-top);
     padding-bottom: var(--padding-bottom);
     background-color: #efefef;
+    text-wrap: balance;
+
   }
 
   pre code {
