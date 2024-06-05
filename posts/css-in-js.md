@@ -27,13 +27,13 @@ Styled Components 是一个流行的 CSS-in-JS 库，使用标签模板字面量
 
 安装：
 
-```
+```shell
 npm install styled-components
 ```
 
 使用：
 
-```
+```javascript
 // App.js
 import React from 'react';
 import styled from 'styled-components';
@@ -66,13 +66,13 @@ Emotion 是另一个强大的 CSS-in-JS 库，提供了高性能的样式解决�
 
 安装：
 
-```
+```shell
 npm install @emotion/react @emotion/styled
 ```
 
 使用：
 
-```
+```javascript
 // App.js
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
@@ -109,7 +109,7 @@ export default App;
 
 CSS-in-JS 的一个重要特性是能够根据组件的状态或属性动态生成样式。
 
-```
+```javascript
 import React, { useState } from 'react';
 import styled from 'styled-components';
 

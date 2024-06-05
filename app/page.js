@@ -1,12 +1,6 @@
 import { getSortedPostsData } from '@/lib/posts'
 import Link from 'next/link'
 
-export async function generateMetadata({ params }) {
-  return {
-    title: "Rex Shi"
-  }
-}
-
 export default function BlogPage() {
   const allPostsData = getSortedPostsData();
   return (
