@@ -43,23 +43,23 @@ export default function Uses() {
             with our various launch simulations.
           </Tool>
           <Tool title="Appl Studio Display (Standard Glass)">
-            The Appl Studio Display is by far the best fit for a Macbook I've ever used, and at 27” it's a perfect size. Also, I have an LG 27” UltraFine 5K monitor that is also great.
+            The Appl Studio Display is by far the best fit for a Macbook I have ever used, and at 27” it is a perfect size. Also, I have an LG 27” UltraFine 5K monitor that is also great.
           </Tool>
           <Tool title="Keyboard">
-            Most of the time I use the Macbook Air's own keyboard. If I'm playing a game, I might use a keyboard made by Ninz or Kyodo.
+            Most of the time I use the Macbook Air is own keyboard. If I am playing a game, I might use a keyboard made by Ninz or Kyodo.
           </Tool>
           <Tool title="AirPods Pro">
-            I've been using Airpods since Apple introduced them. The best thing about it is that it's easy to carry around, for example, it's great on airplanes and while riding a bike.
+            I have been using Airpods since Apple introduced them. The best thing about it is that it is easy to carry around, for example, it is great on airplanes and while riding a bike.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Development tools">
           <Tool title="Sublime Text">
-            I don’t care if it’s missing all of the fancy IDE features everyone
+            I do not care if it is missing all of the fancy IDE features everyone
             else relies on, Sublime Text is still the best text editor ever
             made.
           </Tool>
           <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
+            I’m honestly not even sure what features I get with this that are not
             just part of the macOS Terminal but it’s what I use.
           </Tool>
           <Tool title="Visual Studio Code">
