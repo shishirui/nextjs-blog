@@ -1,0 +1,22 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Rex Shi',
+  date: '2024-06-01',
+  title: '我的第一篇博客',
+  description:
+    'My first blog.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+今天学习了一下 Next.js，跟着文档摸索，开发了一个小博客。
+
+这是我用 Next.js 开发的第一个小网站。
+
+感谢 Next.js，感谢 TailwindCSS。
