@@ -10,6 +10,10 @@
       "pattern": "rexshi.com",
       "custom_domain": true,
     },
+    {
+      "pattern": "www.rexshi.com",
+      "custom_domain": true,
+    },
   ],
   "assets": {
     "directory": ".open-next/assets",
