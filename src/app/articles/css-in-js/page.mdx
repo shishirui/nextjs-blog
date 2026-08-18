@@ -1,17 +1,7 @@
 import { ArticleLayout } from '@/components/ArticleLayout'
+import { articleBySlug } from '@/lib/articleData'
 
-export const article = {
-  author: 'Rex Shi',
-  date: '2024-06-02',
-  title: '关于 CSS-in-JS 的介绍',
-  description:
-    '',
-}
-
-export const metadata = {
-  title: article.title,
-  description: article.description,
-}
+export const article = articleBySlug['css-in-js']
 
 export default (props) => <ArticleLayout article={article} {...props} />
 

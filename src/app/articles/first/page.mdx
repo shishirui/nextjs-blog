@@ -1,17 +1,7 @@
 import { ArticleLayout } from '@/components/ArticleLayout'
+import { articleBySlug } from '@/lib/articleData'
 
-export const article = {
-  author: 'Rex Shi',
-  date: '2024-06-01',
-  title: '我的第一篇博客',
-  description:
-    'My first blog.',
-}
-
-export const metadata = {
-  title: article.title,
-  description: article.description,
-}
+export const article = articleBySlug.first
 
 export default (props) => <ArticleLayout article={article} {...props} />
 
